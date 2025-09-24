@@ -1,0 +1,37 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #0077cc;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Sections */
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
