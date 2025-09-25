@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First GitHub Website</title>
+  Visit My Website: <p> https://sanjayk-math.github.io/sanjayk/ <p>
 </head>
-<body>
-  <h1>Hello, World!</h1>
-  <p>Welcome to my website hosted on GitHub Pages.</p>
-</body>
+
 </html>
