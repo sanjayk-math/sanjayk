@@ -1,99 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hey, I'm Sanjay</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Sanjay K</title>
+<meta name="description" content="Sanjay K, Ph.D. in Mathematics. Nonlinear systems, control theory and quantum computing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li>
-                  <a href="#header">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#professional preparation">Professional Preparation</a>
-                </li>
-                <li>
-                  <a href="#professional experience">Professional Experience</a>
-                </li>
-
-                <li>
-                  <a href="#publications">Publications</a>
-                </li>
-                <li>
-                  <a href="#awards">Awards/Honors</a>
-                </li>
-                <li>
-                  <a href="#activities">Academic activities</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-                <li>
-                  <a href="mailto:sanjaykmss97@gmail.com" class="active"
-                    >Contact Me</a
-                  >
-                </li>
-    </ul>
-  </nav>
-
-  <!-- Home Section -->
-  <section id="home" class="section home" >
-    <h1>Welcome to My Website</h1>
-    <p>Hello! I'm <b>Sanjay K</b>. Research Scholar at The Gandhigram Rural Institute. </p>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-     <p style="text-align: justify;">
-   
-      I am currently pursuing a Doctor of Philosophy in Mathematics at The Gandhigram Rural Institute-Deemed to be University, Gandhigram, Dindigul, 
-      specializing in the stabilization analysis of nonlinear dynamical systems through advanced quantum-inspired optimization techniques. With a solid foundation in 
-      applied mathematics, my research focuses on nonlinear systems, stability analysis, and innovative quantum computing applications to tackle complex challenges in 
-      system dynamics. My work has been published in high-impact journals, showcasing studies on quantum genetic algorithms for system control and resilient filter design 
-      against cyber threats. I am passionate about bridging quantum computing and classical mathematical approaches to deliver solutions for real-world problems, advancing 
-      both theoretical understanding and practical applications. Proficient in Python, Scilab, and LaTex, I bring expertise in analytical problem-solving and computational modelling. 
-      With a collaborative mindset and a commitment to continuous learning, I am eager to push the boundaries of applied mathematics and make meaningful contributions to the field.
-    </p>
-  </section>
-
-  <!-- Achievements Section -->
-  <section id="achievements" class="section">
-    <h2>Achievements</h2>
-    <ul style="text-align: justify;">
-      <li>🏆 Academic Excellence Award</li>
-      <li>💻 Published papers in Control systems, nonlinear systems, quantum computing, and image processing</li>
-      <li>📚 Presented papers and participated in various conference and workshops.</li>
-    </ul>
-  </section>
-
-  <!-- Gallery Section -->
-  <section id="gallery" class="section">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="https://via.placeholder.com/200" alt="Sample 1">
-      <img src="https://via.placeholder.com/200" alt="Sample 2">
-      <img src="https://via.placeholder.com/200" alt="Sample 3">
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:sanjay@example.com">sanjaykmss97@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/sanjaykandasamy/" target="_blank">linkedin.com/in/sanjaykandasamy/</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Sanjay K | Built with GitHub Pages</p>
-  </footer>
+<nav><b>Sanjay K</b><a href="index.html" class="on" aria-current="page">Home</a><a href="about.html">About</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="awards.html">Awards</a><a href="talks.html">Talks</a><a href="education.html">Education</a><a href="contact.html">Contact</a></nav>
+<header class="hero">
+  <canvas id="att" aria-hidden="true"></canvas>
+  <div class="hero-in">
+    <h1>Sanjay K</h1>
+    <p class="lead">Mathematician working on how to keep complex, delayed and attacked systems stable, using quantum-inspired algorithms and neural networks.</p>
+    <ul class="tags"><li>Nonlinear dynamical systems</li><li>Control theory</li><li>Quantum computing</li><li>Image processing</li></ul>
+    <a class="btn" href="publications.html">Read my papers</a><a class="btn o" href="Sanjay_K_CV.pdf">Download CV (PDF)</a>
+  </div>
+</header>
+<main><section><div class="wrap">
+  <div class="cards">
+    <a href="about.html"><strong>About</strong><span>My thesis and what I work on</span></a>
+    <a href="research.html"><strong>Research</strong><span>SERB project and patent</span></a>
+    <a href="publications.html"><strong>Publications</strong><span>6 journal papers, 48 citations</span></a>
+    <a href="awards.html"><strong>Awards</strong><span>Two best paper awards</span></a>
+    <a href="talks.html"><strong>Talks</strong><span>Conference presentations</span></a>
+    <a href="education.html"><strong>Education</strong><span>Degrees, skills and training</span></a>
+    <a href="contact.html"><strong>Contact</strong><span>Email and research profiles</span></a>
+  </div>
+</div></section></main>
+<footer class="meta">© <span id="yr"></span> Sanjay K</footer>
+<script src="main.js"></script>
 </body>
 </html>
